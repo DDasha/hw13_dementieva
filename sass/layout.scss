@@ -1,0 +1,189 @@
+/*==================
+    main page
+====================*/
+.main {
+    text-align: center;
+    
+    h1 {
+  		color: #fff;
+  		font-size: 60px;
+		font-weight: 300;
+		line-height: 56px;
+	}
+    
+    .after-heading {
+        color: #5d6981;
+        font-size: 36px;
+        font-weight: 300;
+    }
+    
+    .description {
+        p {
+            color: #7c8ca0;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+        }
+    }
+}
+
+/*==================
+    description
+====================*/
+.title {
+  text-align: center;
+}
+
+
+/*==================
+    tv
+====================*/
+.tv {
+  background: url("../images/sub-bg.png") top no-repeat; 
+  background-color: rgba(68,142,195,0.5);
+  text-align: center;
+ 
+    .button {
+        background-color: #0149a1;
+        color: #fff;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 20px 70px 20px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        box-shadow: 0px 0px 80px 80px #fff;
+      }
+    a.button:hover {
+        background-color: #fff;
+        color: #0149a1;
+    }
+}
+/*==================
+    how we work
+====================*/
+.work {
+    text-align: center;
+    background-color: #0149a1;
+    h2 {
+        color: white;
+        font-size: 72px;
+        font-weight: 700;
+    }
+    .description {
+        padding: 100px 0;
+    }
+    .after-heading {
+        color: #5483bb;
+        font-size: 36px;
+        font-weight: 300;
+        margin-bottom: 100px;
+    }
+    .main-text {
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+        margin: 0 0 30px 0;
+    }
+    .diagram {
+        float: left; 
+        margin: 0 50px;
+    }
+    .button {
+        background-color: #fff;
+        color: #0149a1;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 20px 70px 20px;
+        margin-top: 100px;
+      }
+    a.button:hover {
+        background-color: #0149a1;
+        color: #fff;
+        border: solid 1px #0149a1;
+    }
+}
+
+/*==================
+    slider
+====================*/
+.flexslider {
+.flex-caption {
+  width: 40%;
+  padding: 2%;
+  color: #7c8ca0;
+  font-size: 24px;
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+}
+
+.flex-caption2 {
+  width: 40%;
+  padding: 2%;
+  color: #7c8ca0;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  
+  a {
+      text-decoration: underline;
+      color: #7c8ca0;
+  }
+}
+
+
+margin-top: 100px;
+margin-bottom: 100px;
+
+.slides {
+    text-align: center;
+}
+}
+/*==================
+    partners
+====================*/
+.partners {
+    background-color: #edeff1;
+    
+    .heading {
+        line-height: 48px;
+        h2 {
+            color: #0149a1;
+            font-size: 72px;
+            font-weight: 700;
+        }
+        p {
+            color: #7c8ca0;
+            font-size: 36px;
+            font-weight: 300;
+        }
+    }
+    
+    .team-description {
+        p {
+            color: #7c8ca0;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+        }
+    }
+    
+    .small-icon {
+        width: 20px;
+    }
+    .social {
+        margin: 15px 0;
+    }
+}
+
+
+/*==================
+    map
+====================*/
+.map {
+    width: 100%;
+    height: 592px;
+}

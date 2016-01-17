@@ -13,7 +13,6 @@ template {
 .container {
   min-width: 360px;
   margin: 0 auto;
-  padding-bottom: 2%;
 }
 
 .container::before,
@@ -53,7 +52,7 @@ body {
 
 
 p {
-  color: #a3b1bf;
+  color: #323232;
 }
 
 h2 {
@@ -62,12 +61,6 @@ h2 {
   font-weight: 100;
   line-height: 48px;
 }
-h3 {
-            color: #5d6981;
-            font-size: 30px;        
-            font-weight: 700;
-            line-height: 48px;
-        }
 
 ul {
   list-style-type: none;
@@ -75,6 +68,12 @@ ul {
 a, a:hover {
   text-decoration: none;
 }
-.m-page {
-    margin-top: 200px;
+
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1b6d85;
+}
+.text-bold {
+  font-weight: 700;
 }

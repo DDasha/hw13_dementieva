@@ -5,8 +5,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "~3.9.0",
-    "gulp-sass": "~2.1.1"
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,9 @@
     "npm"
   ],
   "author": "zabilskaya",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DDasha/hw13_dementieva.git"
+  }
 }

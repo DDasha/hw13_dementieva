@@ -7,13 +7,10 @@
 	line-height: 16px;
 	border: none;
     margin-bottom: 0;
-    background-color: #1d1610;
+    background-color: rgba(29, 22, 16, 0);
 
 }
-.navbar-brand > img {
-    display: block;
-    margin: 20px 100px 0 0;
-}
+
 
 .navbar-default .navbar-nav {
   padding: 15px 50px;
@@ -29,7 +26,7 @@
 	line-height: 16px;
 }
 button.navbar-toggle {
-  background-color: #1abb9c;
+  background-color: rgba(29, 22, 16, 0.5);
   color: #fff;
 }
 .shop {
@@ -40,10 +37,38 @@ button.navbar-toggle {
 header {
     width: 100%;
     min-width: 320px;
-    border-bottom: solid 1px #ccc;
-    background-color: #1d1610;
+    background-color: rgba(29, 22, 16, 0.5);
+    position: absolute;
     
     .container {
         padding-bottom: 0;
     }
+}
+.dr-menu {
+  display: none;
+  position: absolute;
+  width: 600px;
+  top: 66px;
+  left: 0;
+  color: #fff;
+  background-color: rgba(29, 22, 16, 0.5);
+  padding: 20px 30px 27px;}
+
+.dr-menu  li {
+  float: left;
+  width: 50%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #b78e03;
+  }
+}
+
+.nav.navbar-nav li:hover .dr-menu {
+  display: block;
 }
